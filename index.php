@@ -1405,12 +1405,16 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 					</nav>
 					<div class="banner-text">
 						<div class="banner-left">
-							<h4>Institutional Real Estate Management</h4>
-							<h2>Trusted Property Management for Homeowners</h2>
+							<h4>
+                                Welcome comfortable living today!
+                            </h4>
+							<h2>
+                                Exclusive Rental Homes In Navi Mumbai
+                            </h2>
 							<h6>Helping you get the best out of your asset.</h6>
 							<ul>
-								<li>Asset & Portfolio Management for Homeowners</li>
-								<li>Smart Property Leasing for maximum value</li>
+								<li>Get Rs. 5000/- off on your First Month’s Rent</li>
+								<li>Rental homes starting from as low as 9,000/- a month</li>
 							</ul>
 							<div class="locations"></div>
 						</div>
@@ -1419,9 +1423,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 								<div class="container">
 									<p class="form-heading">Talk to us</p>
 									<p class="form-text">
-										Find the ideal tenant matches for you and make the most of your assets,Let's
-										talk!
-									</p>
+                                        Find the ideal rental home matches for you in and around Bandra (W), Mumbai. Let’s talk!									</p>
 									<form onsubmit="return submitForm()">
 										<input type="text" name="name" id="fullname" placeholder="Name" required />
 										<input
@@ -1462,7 +1464,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 		<div class="section-2">
 			<div class="container">
-				<h2 class="heading">The Smartest way to Manage your Real Estate</h2>
+				<h2 class="heading">The Smartest Way to Rent a Home</h2>
 				<div class="icon-cards">
 					<div class="icon-card">
 						<div class="icon-card__icon">
@@ -1471,10 +1473,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 								alt=""
 							/>
 						</div>
-						<div class="icon-card__heading">Institutional property management solution</div>
+						<div class="icon-card__heading">Verified Apartments</div>
 						<div class="icon-card__text">
-							Let MultiLiving take care of your precious home. The only institutional solution
-							available for asset management in Mumbai.
+                            We make sure that only the most genuine propositions are shown to you by thouroghly screening the listed homes .
 						</div>
 					</div>
 					<div class="icon-card">
@@ -1484,10 +1485,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 								alt=""
 							/>
 						</div>
-						<div class="icon-card__heading">Hassle-free Maintenance</div>
+						<div class="icon-card__heading">Convinient Renting</div>
 						<div class="icon-card__text">
-							Regular maintenance & scheduled Checks. We'll make sure your asset is always at its
-							best.
+                            Effortlessly find assured rental homes that upgrade your lifestyle and are perfect for you in practically no time at all.
 						</div>
 					</div>
 					<div class="icon-card">
@@ -1497,9 +1497,10 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 								alt=""
 							/>
 						</div>
-						<div class="icon-card__heading">Quarterly Audit Reports</div>
+						<div class="icon-card__heading">Cleaning Services</div>
 						<div class="icon-card__text">
-							Regular Audit Report post physical visit every quarter.
+                            With scheduled maintenence experts at your expense. We make sure your rental home is always
+clean and at its best!
 						</div>
 					</div>
 					<div class="icon-card">
@@ -1509,9 +1510,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 								alt=""
 							/>
 						</div>
-						<div class="icon-card__heading">Technology & Data</div>
+						<div class="icon-card__heading">On-Demand Services</div>
 						<div class="icon-card__text">
-							Mobile app to request services, and to pay rent and utilities online.
+                            A robust application where you can request services for all your homely needs in one place!
 						</div>
 					</div>
 				</div>
@@ -1520,12 +1521,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 		<div class="section-3-background"></div>
 		<div class="section-4">
 			<div class="container">
-				<h2 class="heading">Professional Institutional Property Management</h2>
-				<h3 class="about">
-					An all-weather financial instrument meant for real estate asset owners, shielding you and
-					your property against market fluctuations. Also, helping you optimize your yields in the
-					real estate trough cycle, maximizing your returns during the upswing of the same cycle.
-				</h3>
+				<h2 class="heading">Why Rent With MultiLiving™ ?</h2>
 				<div class="cards">
 					<div class="card">
 						<div class="card-image">
@@ -1535,24 +1531,27 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 							/>
 						</div>
 						<div class="card__text">
-							<div class="card-title">A Brand you can trust</div>
+							<div class="card-title">Save Time, Rent Effortlessly.</div>
 							<div class="card-text">
-								Platform built by leading industry experts and the brand that knows real estate in
-								and out.
-							</div>
-							<div class="item item-1">Cumulative 100s of years of experience</div>
-							<div class="item item-2">100Mn$ Assets</div>
-							<div class="item item-3">Human-Enabled AI & Big Data</div>
+                                A platform built by leading industry experts and the brand that knows real estate in and out
+                            </div>
+
+							<div class="item item-1">
+                                With time at your hand, spend it with your loved ones
+                            </div>
+							<div class="item item-2">Assured rental homes within 10 days
+                            </div>
+							<div class="item item-3">
+                                Choose from a wide array of rental options
+                            </div>
 						</div>
 					</div>
 					<div class="card">
 						<div class="card__text">
-							<div class="card-title">Hyperlocal Expertise for every asset type</div>
+							<div class="card-title">Save Money. Rent Smart.</div>
 							<div class="card-text">
-								Getting ahead of the market just became easier. Supercharge your growth with our
-								hyperlocal data expertise to target potential renters and sellers, serve better and
-								grow faster for any asset you have.
-							</div>
+                                Renting your dream rental home doesn’t have to be an
+                                expensive business. Get standard pricing and spend no time with the hassles of negotiation							</div>
 						</div>
 						<div class="card-image">
 							<img
@@ -1569,12 +1568,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 							/>
 						</div>
 						<div class="card__text">
-							<div class="card-title">Leverage data and analytics to get maximum ROI</div>
+							<div class="card-title">A single point of contact for all your needs.</div>
 							<div class="card-text">
-								Make our data work for you. Gain insights in real time, keep tabs on your yields,
-								market fluctuations, and make better informed decisions. Grow consistenly with your
-								asset listed with Multiliving.
-							</div>
+                                An expert solution to all the home needs you will ever have. Our trained relationship manager will make your renting experience a breeze.							</div>
 						</div>
 					</div>
 				</div>
@@ -1585,8 +1581,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 				<div class="wrapper">
 					<div class="left">
 						<h3 class="heading">
-							MLT is your go-to partner, Contact our relationship managers today!
-						</h3>
+                            Finding rental homes in Navi Mumbai doesn’t get any easier than this!						</h3>
 						<button onclick="openModal()">Schedule A Call</button>
 					</div>
 					<div class="right">

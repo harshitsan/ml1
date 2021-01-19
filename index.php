@@ -137,27 +137,27 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 			@media (max-width: 640px) {
 				.banner {
-					background-image: url("https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/mobilebanner.jpg");
+					background-image: url("./images/navi_bg.png");
 					background-position: center;
 				}
 			}
 
 			.banner-gradient {
 				background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 22.54%, rgba(0, 0, 51, 0) 98.35%);
-				opacity: 0.8;
+				opacity: 1;
 				width: 100%;
 				height: 100%;
 			}
 
 			@media (max-width: 640px) {
 				.banner-gradient {
-					opacity: 0.9;
+					opacity: 1;
 				}
 			}
 
 			.banner .logo {
 				height: 50px;
-				width: 50px;
+				width: 200px;
 				margin-top: 48px;
 			}
 
@@ -203,7 +203,12 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 				letter-spacing: -0.18px;
 				color: #ffa476;
 			}
-
+			.banner-left div.locations {
+				background-image: url("./images/Locations\ Desktop.png");
+                width: 100%;
+                height: 70px;
+                background-repeat: no-repeat;
+			}
 			@media (max-width: 640px) {
 				.banner-left h4 {
 					font-size: 19px;
@@ -247,7 +252,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			}
 
 			.banner .form {
-				background:#F5F5F5;
+				background: #f5f5f5;
 				padding: 2rem;
 				padding-top: 0.5rem;
 				padding-bottom: 4rem;
@@ -1333,20 +1338,21 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 				.footer-right .page-links {
 					margin-right: 20px;
 				}
-            }
-            .section-3-background{
-                margin: 3em;
-                height: 75vw;
-                background-size:contain;
-                background-repeat: no-repeat;
-                background-image: url('./images/Ammenities\ Desktop.png');
-            }
-            @media (max-width: 960px) {
-            .section-3-background{
-                margin: 2em 0px;
-                height: 190vw;
-                background-image: url('./images/Ammenities\ Mobile.png');
 			}
+			.section-3-background {
+				margin: 3em;
+				height: 75vw;
+				background-position: center;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-image: url("./images/Ammenities\ Desktop.png");
+			}
+			@media (max-width: 960px) {
+				.section-3-background {
+					margin: 2em 0px;
+					height: 200vw;
+					background-image: url("./images/Ammenities\ Mobile.png");
+				}
 			}
 		</style>
 	</head>
@@ -1391,7 +1397,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 					<nav>
 						<a href="https://multiliving.co.in">
 							<img
-								src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/logo.png"
+								src="./images/logo.png"
 								alt="Logo"
 								class="logo"
 							/>
@@ -1405,9 +1411,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 							<ul>
 								<li>Asset & Portfolio Management for Homeowners</li>
 								<li>Smart Property Leasing for maximum value</li>
-								<li>Hassle free Property Management & maintenance</li>
-								<li>Dedicated Account Manager for all your needs</li>
 							</ul>
+							<div class="locations"></div>
 						</div>
 						<div class="banner-right">
 							<div class="form">
@@ -1579,18 +1584,14 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			<div class="container">
 				<div class="wrapper">
 					<div class="left">
-                        <h3 class="heading">
+						<h3 class="heading">
 							MLT is your go-to partner, Contact our relationship managers today!
 						</h3>
 						<button onclick="openModal()">Schedule A Call</button>
-					
 					</div>
 					<div class="right">
-                    	<img
-							src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/buildings.svg"
-							alt="buildings"
-						/>
-                        </div>
+						<img src="./images/bottom.png" alt="buildings" />
+					</div>
 				</div>
 			</div>
 		</div>

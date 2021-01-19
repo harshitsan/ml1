@@ -129,7 +129,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 			.banner {
 				display: flex;
-				background-image: url("https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/banner.png");
+				background-image: url("./images/navi_bg.png");
 				width: 100%;
 				background-repeat: no-repeat;
 				background-size: cover;
@@ -1336,7 +1336,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             }
             .section-3-background{
                 margin: 3em;
-                height: 120vh;
+                height: 75vw;
                 background-size:contain;
                 background-repeat: no-repeat;
                 background-image: url('./images/Ammenities\ Desktop.png');
@@ -1344,7 +1344,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             @media (max-width: 960px) {
             .section-3-background{
                 margin: 2em 0px;
-                height: 120vh;
+                height: 190vw;
                 background-image: url('./images/Ammenities\ Mobile.png');
 			}
 			}
@@ -1575,243 +1575,22 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 				</div>
 			</div>
 		</div>
-		<div class="section-5">
-			<div class="scroller">
-				<h2 class="heading">
-					<div class="container">Property Leasing Simplified</div>
-				</h2>
-				<div class="wrapper container">
-					<div class="content">
-						<div class="image">
-							<img
-								src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/Hassle Free.png"
-								alt=""
-							/>
-						</div>
-						<div class="row row-1 active">
-							<h2>Hassle Free Rental Collection</h2>
-							<p>
-								No more chasing after tenants on the first of every month. Rent your flat worry free
-								with MultiLiving.
-							</p>
-						</div>
-						<div class="image">
-							<img
-								src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/Low Turnaround.png"
-								alt=""
-							/>
-						</div>
-						<div class="row row-2">
-							<h2>Manage Digitally</h2>
-							<p>
-								Get Visibility of your Home Remotely. Monitor and manage your house with the
-								MultiLiving App.
-							</p>
-						</div>
-						<div class="image">
-							<img
-								src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/Tenant Acquistion & Screening.png"
-								alt=""
-							/>
-						</div>
-						<div class="row row-3">
-							<h2>Tenant Acquisition & Screening</h2>
-							<p>
-								We thoroughly screen Tenants. Get tenants who will love and take care of your home
-								like it’s their own.
-							</p>
-						</div>
-					</div>
-					<div class="image"></div>
-				</div>
-			</div>
-		</div>
-		<div class="section-6">
-			<div class="container">
-				<h2 class="heading">Your Personal Asset Manager to manage your Real Estate Assets</h2>
-				<div class="wrapper">
-					<div class="left">
-						<img
-							src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/girl.png"
-							alt="buildings"
-						/>
-					</div>
-					<div class="right">
-						<h3 class="heading">
-							MLT is your go-to partner, Contact our relationship managers today!
-						</h3>
-						<button onclick="openModal()">Schedule A Call</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="section-7">
-			<div class="container">
-				<h2 class="heading">Who should opt for MultiLiving?</h2>
-				<div class="card">
-					<div class="card-image">
-						<img
-							src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/top-view-of-a-table-with-man-holding-a-cup-of-latte-with-a-3098619 1.png"
-							alt=""
-						/>
-					</div>
-					<div class="card__text__wrapper">
-						<div class="card__text">
-							<div class="heading">First-time owners</div>
-							<div class="text">
-								You bought a flat recently, and you want to rent your apartment, understand how,
-								without much risk, but not sure where to start?
-							</div>
-						</div>
-						<div class="card__text">
-							<div class="heading">Experienced owners</div>
-							<div class="text">
-								You bought a flat recently, you want to rent your apartment, understand how, without
-								much risk, but not sure where to start?
-							</div>
-						</div>
-						<div class="card__text">
-							<div class="heading">Uncertain owners</div>
-							<div class="text">
-								You are confused and figuring things out amidst the uncertainty. You need an opinion
-								to figure it out, but not sure about whom to talk to
-							</div>
-						</div>
-						<div class="card__text">
-							<div class="heading">Ahead of time</div>
-							<div class="text">
-								You know that digital is the new way of living, and everything will be sold through
-								online platforms real soon, and you’re looking for the right partners.
-							</div>
-						</div>
-						<div class="slider-controls">
-							<div class="slider-control slide-1"></div>
-							<div class="slider-control slide-2"></div>
-							<div class="slider-control slide-3"></div>
-							<div class="slider-control slide-4"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="section-10">
-			<div class="container">
-				<h2 class="heading">A Comprehensive Property Management Solution</h2>
-				<div class="icon-cards">
-					<div class="icon-card">
-						<div class="icon-card__icon">
-							<img
-								src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/Rent.svg"
-								alt=""
-							/>
-						</div>
-						<div class="icon-card__heading">Lease conveniently</div>
-						<div class="icon-card__text">
-							Home seekers are throughly screened and get a virtual tour of your property. Only
-							those with genuine interest approach you.
-						</div>
-					</div>
-					<div class="icon-card">
-						<div class="icon-card__icon">
-							<img
-								src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/Lease.svg"
-								alt=""
-							/>
-						</div>
-						<div class="icon-card__heading">Manage digitally</div>
-						<div class="icon-card__text">
-							Collect Rents, Schedule maintenance, Keep an eye on your apartment with our all
-							in-app. Leasing made super easy.
-						</div>
-					</div>
-					<div class="icon-card">
-						<div class="icon-card__icon">
-							<img
-								src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/Flip Faster.svg"
-								alt=""
-							/>
-						</div>
-						<div class="icon-card__heading">Churn smartly</div>
-						<div class="icon-card__text">
-							Advertise your property to millions of customers and instantly get the right price for
-							your asset.
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="section-11">
-			<div class="container">
-				<h2 class="heading">What are people saying!</h2>
-				<div class="wrapper">
-					<img
-						src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/arrow-left.svg"
-						alt="left arrow"
-						class="swiper-button-prev"
-					/>
-					<div class="card card-1">
-						<div class="card__image"></div>
-						<div class="card__text">
-							<div class="heading">Pallavi Garg</div>
-							<div class="subtitle">Property Owner, Lower Parel – Mumbai</div>
-							<div class="about">
-								— Given that we stay in a different state from where our property is located, we
-								were worried about managing our property, constant travel for all the paper work &
-								had to go through a lot of other hassles associated with renting the property. With
-								MultiLiving, all our worries are taken away and they are offering us a one stop
-								solution covering all the support we need.
-							</div>
-						</div>
-					</div>
-					<div class="card card-2">
-						<div class="card__image"></div>
-						<div class="card__text">
-							<div class="heading">Anand Rao</div>
-							<div class="subtitle">Property Owner, Andheri West – Mumbai</div>
-							<div class="about">
-								— Finding the right and trust worthy tenants and making sure we receive rent on time
-								was one of the challenges we were facing. After I connected with Multivliing, I have
-								to say this has been completely taken care by them. They screened the tenants and
-								made sure this is managed professionally without having to worry about it every
-								month.
-							</div>
-						</div>
-					</div>
-					<div class="card card-3">
-						<div class="card__image"></div>
-						<div class="card__text">
-							<div class="heading">Sudhanshu Jain</div>
-							<div class="subtitle">Property Owner, Bandra – Mumbai</div>
-							<div class="about">
-								— I’m very happy with the way MultiLiving has been managing my property, they
-								provided all the help necessary to make sure the flat was rented out, and also
-								provided us with regular property maintenance and updates.
-							</div>
-						</div>
-					</div>
-					<img
-						src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/arrow-right.svg"
-						alt="right arrow"
-						class="swiper-button-next"
-					/>
-				</div>
-			</div>
-		</div>
 		<div class="section-12">
 			<div class="container">
 				<div class="wrapper">
 					<div class="left">
-						<img
-							src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/buildings.svg"
-							alt="buildings"
-						/>
-					</div>
-					<div class="right">
-						<h3 class="heading">
+                        <h3 class="heading">
 							MLT is your go-to partner, Contact our relationship managers today!
 						</h3>
 						<button onclick="openModal()">Schedule A Call</button>
+					
 					</div>
+					<div class="right">
+                    	<img
+							src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/buildings.svg"
+							alt="buildings"
+						/>
+                        </div>
 				</div>
 			</div>
 		</div>

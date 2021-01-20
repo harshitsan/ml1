@@ -200,7 +200,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 		}
 
 		.banner-left div.locations {
-			background-image: url("./bandra/locations\ desktop.png");
+			background-image: url("https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/bandra/locations\ desktop.png");
 			width: 75%;
 			height: 180px;
 			padding: 10px;
@@ -1410,7 +1410,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			.section-3-background {
 				margin: 2em 0px;
 				height: 200vw;
-				background-image: url("./images/Ammenities\ Mobile.png");
+				background-image: url("https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/bandra/mobile\ main-bg.png");
 			}
 		}
 	</style>
@@ -1455,7 +1455,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			<div class="container">
 				<nav>
 					<a href="https://multiliving.co.in">
-						<img src="./images/logo.png" alt="Logo" class="logo" />
+						<img src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/navi-mumbai/logo.png" alt="Logo" class="logo" />
 					</a>
 				</nav>
 				<div class="banner-text">
@@ -1618,7 +1618,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 					<button onclick="openModal()">Schedule A Call</button>
 				</div>
 				<div class="right">
-					<img src="./images/bottom.png" alt="buildings" />
+					<img src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/navi-mumbai/bottom.png" alt="buildings" />
 				</div>
 			</div>
 		</div>

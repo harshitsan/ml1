@@ -83,6 +83,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 		.container {
 			width: 85%;
+            /* padding: 3em 0px; */
 			margin: 0 auto;
 		}
 
@@ -121,7 +122,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 		.banner {
 			display: flex;
-			background-image: url("./images/navi_bg.png");
+			background-image: url("https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/navi-mumbai/navi_bg.png");
 			width: 100%;
 			background-repeat: no-repeat;
 			background-size: cover;
@@ -129,7 +130,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 		@media (max-width: 640px) {
 			.banner {
-				background-image: url("./images/navi_bg.png");
+				background-image: url("https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/navi-mumbai/navi_bg.png");
 				background-position: center;
 			}
 		}
@@ -177,6 +178,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 		}
 
 		.banner-left h2 {
+            margin: 0px;
 			font-family: Rubik;
 			font-style: normal;
 			font-weight: normal;
@@ -190,6 +192,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			font-family: Rubik;
 			font-style: normal;
 			font-weight: 500;
+            margin: 20px 20px 20px 0px;
 			font-size: 18px;
 			line-height: 21px;
 			letter-spacing: -0.18px;
@@ -197,7 +200,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 		}
 
 		.banner-left div.locations {
-			background-image: url("./images/Locations\ Desktop.png");
+			background-image: url("https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/navi-mumbai/Locations\ Desktop.png");
 			width: 100%;
 			height: 70px;
 			background-repeat: no-repeat;
@@ -248,9 +251,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 		.banner .form {
 			background: #f5f5f5;
 			padding: 2rem;
-			padding-top: 0.5rem;
-			padding-bottom: 4rem;
-			border: 0.5px solid #dadada;
+            padding: 1.5rem 0px;			border: 0.5px solid #dadada;
 			box-sizing: border-box;
 			/* box-shadow: 0px 0px 48px rgba(253, 137, 112, 0.16); */
 			border-radius: 8px;
@@ -260,7 +261,12 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			flex-basis: 50%;
 			margin-left: 2rem;
 		}
-
+@media (max-width: 940px) {
+    .banner-right {
+			flex-basis: 100%;
+			margin-left: 2rem;
+		}
+}
 		@media (max-width: 640px) {
 
 			.banner-right,
@@ -270,7 +276,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 			.banner-right {
 				margin-left: 0;
-				margin-top: 50px;
+				/* margin-top: 50px; */
 			}
 		}
 
@@ -287,6 +293,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			line-height: 64px;
 			letter-spacing: -1.18px;
 			color: #333333;
+            margin: 0px;
 		}
 
 		.form-text {
@@ -310,10 +317,6 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			margin-bottom: 1rem;
 		}
 
-		input[name="phone"],
-		select[name="location"] {
-			width: 49%;
-		}
 
 		input[name="phone"] {
 			margin-right: 2%;
@@ -325,7 +328,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			font-weight: bold;
 			font-size: 18px;
 			line-height: 32px;
-			margin-top: 40px;
+			/* margin-top: 40px; */
 			width: 100%;
 			margin-left: auto;
 			margin-right: auto;
@@ -1116,7 +1119,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 		.section-12,
 		.section-6 {
-			padding-top: 70px;
+			/* padding-top: 70px; */
 			padding-bottom: 70px;
 		}
 
@@ -1356,14 +1359,46 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			background-position: center;
 			background-size: contain;
 			background-repeat: no-repeat;
-			background-image: url("./images/Ammenities\ Desktop.png");
+			background-image: url("https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/navi-mumbai/Ammenities\ Desktop.png");
 		}
-
+        .input-inline {
+            width: 100%;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+			}
+        .input-inline-start {
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+			}
+			input.check-me {
+				width: 20px;
+				height: 20px;
+				margin: 0 20px;
+			}
+            form *{
+				font-family: Rubik, sans-serif;
+            }
+            .flex-column{
+                display: flex;
+                width: 100%;
+                flex-direction: column;
+            }
 		@media (max-width: 960px) {
+            .form{
+                padding: 10px !important;
+            }
+            .input-inline {
+                flex-direction: column;
+			}
+            .form-heading{
+                margin: 0;
+            }
 			.section-3-background {
 				margin: 2em 0px;
 				height: 200vw;
-				background-image: url("./images/Ammenities\ Mobile.png");
+				background-image: url("https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/navi-mumbai/Ammenities\ Mobile.png");
 			}
 		}
 	</style>
@@ -1378,28 +1413,27 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 					Find the ideal tenant matches for you and make the most of your assets,Let's talk!
 				</p>
 				<form onsubmit="return submitModalForm()">
-					<input type="text" name="name" id="name" placeholder="Name" required />
-					<input type="text" name="phone" id="phone" placeholder="Phone Number" required />
-					<select name="location" id="location" required>
-						<option disabled selected value>Location</option>
-						<option value="Powai">Powai</option>
-						<option value="Bandra Kurla Complex">Bandra Kurla Complex</option>
-						<option value="Lower Parel">Lower Parel</option>
-						<option value="Worli">Worli</option>
-						<option value="Wadala">Wadala</option>
-						<option value="Andheri">Andheri</option>
-						<option value="Bandra">Bandra</option>
-						<option value="South Bombay">South Bombay</option>
-						<option value="Malabar Hills">Malabar Hills</option>
-						<option value="Dadar">Dadar</option>
-						<option value="Kurla">Kurla</option>
-						<option value="Marine Lines">Marine Lines</option>
-						<option value="Jogeshwari">Jogeshwari</option>
-						<option value="Chembur">Chembur</option>
-						<option value="Dombivli">Dombivli</option>
-						<option value="Other Areas">Other Areas</option>
-					</select>
-					<button>Schedule a Call</button>
+                    <div class="flex-column">
+                    <input type="text" name="name" id="name" placeholder="Name" required />
+                <div class="input-inline">
+
+                        <input type="text" name="phone" id="phone" placeholder="Phone Number" required />
+                        <input
+                        class="form-input"
+                        type="email"
+                        name="email"
+                        id="email-popup"
+                        required
+                        placeholder="Email"
+                        />
+                    </div>
+                        <div class="input-inline-start">
+                            <input type="checkbox" checked="checked" name="sure" placeholder="select" required class="check-me" />
+                            <p>Yes, I agree to be contacted by MultiLiving™</p>
+                        </div>
+                    <button>Schedule a Call</button>
+                </div>
+                    
 				</form>
 			</div>
 		</div>
@@ -1409,7 +1443,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			<div class="container">
 				<nav>
 					<a href="https://multiliving.co.in">
-						<img src="./images/logo.png" alt="Logo" class="logo" />
+						<img src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/navi-mumbai/logo.png" alt="Logo" class="logo" />
 					</a>
 				</nav>
 				<div class="banner-text">
@@ -1433,28 +1467,33 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 								<p class="form-heading">Talk to us</p>
 								<p class="form-text">
 									Find the ideal rental home matches for you in and around Bandra (W), Mumbai. Let’s talk! </p>
-								<form onsubmit="return submitForm()">
+								<form onsubmit="return submitForm()" id="base-form">
 									<input type="text" name="name" id="fullname" placeholder="Name" required />
-									<input type="text" name="phone" id="phoneNumber" placeholder="Phone Number" required />
-									<select name="location" id="geolocation" required>
-										<option disabled selected value>Location</option>
-										<option value="Powai">Powai</option>
-										<option value="Bandra Kurla Complex">Bandra Kurla Complex</option>
-										<option value="Lower Parel">Lower Parel</option>
-										<option value="Worli">Worli</option>
-										<option value="Wadala">Wadala</option>
-										<option value="Andheri">Andheri</option>
-										<option value="Bandra">Bandra</option>
-										<option value="South Bombay">South Bombay</option>
-										<option value="Malabar Hills">Malabar Hills</option>
-										<option value="Dadar">Dadar</option>
-										<option value="Kurla">Kurla</option>
-										<option value="Marine Lines">Marine Lines</option>
-										<option value="Jogeshwari">Jogeshwari</option>
-										<option value="Chembur">Chembur</option>
-										<option value="Dombivli">Dombivli</option>
-										<option value="Other Areas">Other Areas</option>
-									</select>
+                                   <div class="input-inline">
+                                       
+                                       <input 
+                                       type="text"
+                                       name="phone"
+                                       id="phoneNumber"
+                                       maxlength="10"
+                                       pattern="[0-9]{10}"
+                                    placeholder="Phone Number"
+                                    oninvalid="InvalidMsg(this);" 
+                                    required="required"
+                                    />
+									<input
+                                    class="form-input"
+                                    type="email"
+                                    name="email"
+                                    id="email-normal"
+                                    required
+                                    placeholder="Email"
+									/>
+                                </div>
+                                    <div class="input-inline-start">
+                                        <input type="checkbox" checked="checked" name="sure" placeholder="select" required class="check-me" />
+                                        <p>Yes, I agree to be contacted by MultiLiving™</p>
+                                    </div>
 									<button>Schedule a Call</button>
 								</form>
 							</div>
@@ -1567,7 +1606,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 					<button onclick="openModal()">Schedule A Call</button>
 				</div>
 				<div class="right">
-					<img src="./images/bottom.png" alt="buildings" />
+					<img src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/navi-mumbai/bottom.png" alt="buildings" />
 				</div>
 			</div>
 		</div>
@@ -1660,12 +1699,12 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			}
 		};
 
+        const url = "https://core.multiliving.co.in/api/lp/hha_lead";
 		function submitForm() {
-			//const url = 'https://staging.internal.multiliving.co.in:8081/api/lp/owner';
-			const url = "https://multiliving.co.in:8081/api/lp/owner";
 			const fullName = document.getElementById("fullname").value.trim();
 			const phoneNumber = document.getElementById("phoneNumber").value.trim();
-			const location = document.getElementById("geolocation").value.trim();
+            const location = document.getElementById("email").value.trim();
+            
 			const params = window.location.search
 				.split("?")[1]
 				.split("&")
@@ -1677,8 +1716,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 			const formData = new FormData();
 			formData.append("Full_Name", fullName);
-			formData.append("Phone_No", phoneNumber);
-			formData.append("Location_str", location);
+			formData.append("Phone_No",phoneNumber);
+            formData.append("Phone_Code", "+91");
+				formData.append("Email", location);
 			formData.append("UTM_Source", params.utm_source);
 			formData.append("UTM_Medium", params.utm_medium);
 			formData.append("UTM_Campaign", params.utm_campaign);
@@ -1703,11 +1743,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 		}
 
 		function submitModalForm() {
-			//const url = 'https://staging.internal.multiliving.co.in:8081/api/lp/owner';
-			const url = "https://multiliving.co.in:8081/api/lp/owner";
 			const fullName = document.getElementById("name").value.trim();
 			const phoneNumber = document.getElementById("phone").value.trim();
-			const location = document.getElementById("location").value.trim();
+			const location = document.getElementById("email-popup").value.trim();
 			const params = window.location.search
 				.split("?")[1]
 				.split("&")
@@ -1719,8 +1757,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 			const formData = new FormData();
 			formData.append("Full_Name", fullName);
-			formData.append("Phone_No", phoneNumber);
-			formData.append("Location_str", location);
+            formData.append("Phone_No",phoneNumber);
+            formData.append("Phone_Code", "+91");
+				formData.append("Email", location);
 			formData.append("UTM_Source", params.utm_source);
 			formData.append("UTM_Medium", params.utm_medium);
 			formData.append("UTM_Campaign", params.utm_campaign);
@@ -1743,160 +1782,15 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 			return false;
 		}
-
-		document.querySelectorAll(".section-11 .card").forEach((el) => (el.style.display = "none"));
-
-		document.querySelector(".section-11 .card").style.display = "flex";
-
-		document.querySelector(".swiper-button-next").addEventListener("click", nextCard);
-		document.querySelector(".swiper-button-prev").addEventListener("click", prevCard);
-
-		let curr_card = 1;
-
-		function nextCard() {
-			curr_card += 1;
-			curr_card =
-				curr_card > document.querySelectorAll(".section-11 .card").length ?
-				curr_card % document.querySelectorAll(".section-11 .card").length :
-				curr_card;
-
-			displayCard();
-		}
-
-		function prevCard() {
-			curr_card -= 1;
-			curr_card =
-				curr_card < 1 ? document.querySelectorAll(".section-11 .card").length : curr_card;
-
-			displayCard();
-		}
-
-		function displayCard() {
-			document.querySelectorAll(".section-11 .card").forEach((el) => (el.style.display = "none"));
-			document.querySelector(`.section-11 .card-${curr_card}`).style.display = "flex";
-		}
-
-		function resetControls() {
-			document.querySelectorAll(".slider-control").forEach((el) => {
-				el.classList.remove("active");
-			});
-			document
-				.querySelectorAll(".section-7 .card .card__text")
-				.forEach((el) => (el.style.display = "none"));
-		}
-
-		resetControls();
-		document.querySelector(".section-7 .card .card__text:nth-child(1)").style.display = "flex";
-		document.querySelector(".slider-control.slide-1").classList.add("active");
-
-		document.querySelector(".slider-control.slide-1").addEventListener("click", function(evt) {
-			resetControls();
-			document.querySelector(".section-7 .card .card__text:nth-child(1)").style.display = "flex";
-			evt.target.classList.add("active");
-		});
-
-		document.querySelector(".slider-control.slide-2").addEventListener("click", function(evt) {
-			resetControls();
-			document.querySelector(".section-7 .card .card__text:nth-child(2)").style.display = "flex";
-			evt.target.classList.add("active");
-		});
-
-		document.querySelector(".slider-control.slide-3").addEventListener("click", function(evt) {
-			resetControls();
-			document.querySelector(".section-7 .card .card__text:nth-child(3)").style.display = "flex";
-			evt.target.classList.add("active");
-		});
-
-		document.querySelector(".slider-control.slide-4").addEventListener("click", function(evt) {
-			resetControls();
-			document.querySelector(".section-7 .card .card__text:nth-child(4)").style.display = "flex";
-			evt.target.classList.add("active");
-		});
-
-		let slideNumber = 1;
-
-		setInterval(() => {
-			$(`.slider-control.slide-${slideNumber}`).click();
-			slideNumber += 1;
-			slideNumber = slideNumber > 4 ? 1 : slideNumber;
-		}, 2000);
-
-		let row1 = $(".section-3 .row-1").offset().top;
-		let row2 = $(".section-3 .row-2").offset().top;
-		let row3 = $(".section-3 .row-3").offset().top;
-		let row4 = $(".section-5 .row-1").offset().top;
-		let row5 = $(".section-5 .row-2").offset().top;
-		let row6 = $(".section-5 .row-3").offset().top;
-
-		$(window)
-			.scroll(function() {
-				var scrollPoint;
-				scrollPoint = $(window).scrollTop() + 200;
-				if (scrollPoint < row4 - 800) {
-					if (scrollPoint > row1 && scrollPoint < row2) {
-						$(".section-3 .row").removeClass("active");
-						$(".section-3 .row-1").addClass("active");
-						$(".section-3 .wrapper .image").css(
-							"background-image",
-							"url(" +
-							'"https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/Maintenence Scheduled.png"' +
-							")"
-						);
-					}
-					if (scrollPoint > row2 + 600 && scrollPoint < row3 + 1200) {
-						$(".section-3 .row").removeClass("active");
-						$(".section-3 .row-2").addClass("active");
-						$(".section-3 .wrapper .image").css(
-							"background-image",
-							"url(" +
-							'"https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/Home Insurance.png"' +
-							")"
-						);
-					}
-					if (scrollPoint > row3 + 1200) {
-						$(".section-3 .row").removeClass("active");
-						$(".section-3 .row-3").addClass("active");
-						$(".section-3 .wrapper .image").css(
-							"background-image",
-							"url(" +
-							'"https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/Safety & Security.png"' +
-							")"
-						);
-					}
+            
+			function InvalidMsg(textbox) {
+				if (textbox.validity.patternMismatch) {
+					textbox.setCustomValidity("Please enter 10 digit Mobile No.");
 				} else {
-					if (scrollPoint > row4 && scrollPoint < row5) {
-						$(".section-5 .row").removeClass("active");
-						$(".section-5 .row-1").addClass("active");
-						$(".section-5 .wrapper .image").css(
-							"background-image",
-							"url(" +
-							'"https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/Hassle Free.png"' +
-							")"
-						);
-					}
-					if (scrollPoint > row5 + 600 && scrollPoint < row6 + 1200) {
-						$(".section-5 .row").removeClass("active");
-						$(".section-5 .row-2").addClass("active");
-						$(".section-5 .wrapper .image").css(
-							"background-image",
-							"url(" +
-							'"https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/Low Turnaround.png"' +
-							")"
-						);
-					}
-					if (scrollPoint > row6 + 1200) {
-						$(".section-5 .row").removeClass("active");
-						$(".section-5 .row-3").addClass("active");
-						$(".section-5 .wrapper .image").css(
-							"background-image",
-							"url(" +
-							'"https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/Tenant Acquistion & Screening.png"' +
-							")"
-						);
-					}
+					textbox.setCustomValidity("");
 				}
-			})
-			.scroll();
+				return true;
+			}
 	</script>
 </body>
 

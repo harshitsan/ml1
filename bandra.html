@@ -813,7 +813,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			justify-content: center;
 			left: -30px;
 			top: 4px;
-			background-color: #fd8970;
+			background-color: #FF9966;
 			height: 23px;
 			width: 23px;
 			border-radius: 50%;
@@ -1468,7 +1468,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 						</h2>
 						<h6>Helping you get the best out of your asset.</h6>
 						<ul>
-							<li>Get Rs. 5000/- off on your First Month’s Rent</li>
+							<li>Get <span style="background-color: #FF9966;">Rs. 5000/-</span> off on your First Month’s Rent</li>
 							<li>Rental homes starting from as low as 38,000/- a month</li>
 						</ul>
 						<div class="locations"></div>
@@ -1713,7 +1713,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			}
 		};
 
-        const url = "https://core.multiliving.co.in/api/lp/hha_lead";
+		const url = "https://core.multiliving.co.in/api/lp/tenant";
+		
 		function submitForm() {
 			const fullName = document.getElementById("fullname").value.trim();
 			const phoneNumber = document.getElementById("phoneNumber").value.trim();

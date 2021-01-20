@@ -566,7 +566,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 		.section-5 .wrapper .content .row,
 		.section-3 .wrapper .content .row.active,
 		.section-5 .wrapper .content .row.active {
-			border-color: #fd8970;
+			border-color: #FF9966;
 			border-width: 0px 0px 0px 4px;
 			border-style: solid;
 			margin: 5px;
@@ -765,7 +765,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			font-size: 32px;
 			line-height: 38px;
 			letter-spacing: -0.1px;
-			color: #fd8970;
+			color: #FF9966;
 			margin-bottom: 10px;
 		}
 
@@ -803,7 +803,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			justify-content: center;
 			left: -30px;
 			top: 4px;
-			background-color: #fd8970;
+			background-color: #FF9966;
 			height: 23px;
 			width: 23px;
 			border-radius: 50%;
@@ -934,7 +934,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 		}
 
 		.section-7 .card .card__text__wrapper .slider-control.active {
-			background-color: #fd8970;
+			background-color: #FF9966;
 		}
 
 		/****************************************      Section 10       *************************************/
@@ -1077,7 +1077,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			line-height: 44px;
 			letter-spacing: -0.64px;
 			text-align: left;
-			color: #fd8970;
+			color: #FF9966;
 		}
 
 		.section-11 .card__text .subtitle {
@@ -1208,7 +1208,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 		.section-12 button,
 		.section-6 button {
-			background: #fd8970;
+			background: #FF9966;
 			box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25);
 			border-radius: 4px;
 			height: 56px;
@@ -1235,7 +1235,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 		/*******************************                    Footer                   ********************************/
 
 		footer {
-			background: #fd8970;
+			background: #FF9966;
 			padding-top: 50px;
 			padding-bottom: 0px;
 		}
@@ -1458,7 +1458,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 						</h2>
 						<h6>Helping you get the best out of your asset.</h6>
 						<ul>
-							<li>Get Rs. 5000/- off on your First Month’s Rent</li>
+							<li>Get <span style="background-color: #FF9966;">Rs. 5000/-</span> off on your First Month’s Rent</li>
 							<li>Rental homes starting from as low as 9,000/- a month</li>
 						</ul>
 						<div class="locations"></div>
@@ -1703,7 +1703,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			}
 		};
 
-        const url = "https://core.multiliving.co.in/api/lp/hha_lead";
+		const url = "https://core.multiliving.co.in/api/lp/tenant";
+
 		function submitForm() {
 			const fullName = document.getElementById("fullname").value.trim();
 			const phoneNumber = document.getElementById("phoneNumber").value.trim();

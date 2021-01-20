@@ -201,7 +201,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 
 		.banner-left div.locations {
 			background-image: url("./bandra/locations\ desktop.png");
-			width: 100%;
+			width: 75%;
 			height: 180px;
 			padding: 10px;
 			background-size:contain ;
@@ -209,6 +209,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 		}
 
 		@media (max-width: 640px) {
+			.banner-left div.locations {
+				width: 100%;
+			}
 			.banner-left h4 {
 				font-size: 19px;
 			}
@@ -732,20 +735,22 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			flex-direction: column;
 		}
 
-		.section-4 .cards .card:nth-child(2n + 1) img {
-			position: relative;
+		.section-4 .cards .card:nth-child(2n + 1) .card-image {
+			/* position: relative; */
 			margin-right: 4rem;
-			left: -2rem;
+			/* left: -2rem; */
 		}
 
-		.section-4 .cards .card:nth-child(2n) img {
-			position: relative;
+		.section-4 .cards .card:nth-child(2n) .card-image {
+			/* position: relative; */
 			margin-left: 4rem;
-			right: -2rem;
+			/* right: -2rem; */
 		}
 
 		@media (max-width: 860px) {
-
+			.section-4 .cards .card:nth-child(2n) .card-image{
+				margin: 0px;
+			}
 			.section-4 .cards .card:nth-child(2n + 1) img,
 			.section-4 .cards .card:nth-child(2n) img {
 				margin: 0;
@@ -1562,7 +1567,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			<div class="cards">
 				<div class="card">
 					<div class="card-image">
-						<img src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/house.png" alt="house" />
+						<img src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/service-only-model/desktop/Mask-1.png" width="100%" alt="house" />
 					</div>
 					<div class="card__text">
 						<div class="card-title">Save Time, Rent Effortlessly.</div>
@@ -1588,12 +1593,12 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 							expensive business. Get standard pricing and spend no time with the hassles of negotiation </div>
 					</div>
 					<div class="card-image">
-						<img src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/survey.png" alt="survey" />
+						<img src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/campaign-5k-lp/mask2.jpg" width="100%" alt="survey" />
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-image">
-						<img src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/stocks.png" alt="stocks" />
+						<img src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/campaign-5k-lp/mask3.jpg" width="100%" alt="stocks" />
 					</div>
 					<div class="card__text">
 						<div class="card-title">A single point of contact for all your needs.</div>
@@ -1621,7 +1626,9 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 	<footer>
 		<div class="logo">
 			<div class="container">
-				<img src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/logo.png" alt="logo" />
+				<a href="https://multiliving.co.in/">
+					<img src="https://multiliving-landing-page.s3.ap-south-1.amazonaws.com/nri_supply/logo.png" alt="logo" />
+				</a>
 			</div>
 		</div>
 		<div class="container">
